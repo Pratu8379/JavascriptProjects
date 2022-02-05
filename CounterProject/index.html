@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #071607;
+      }
+      .container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .card {
+        width: 450px;
+        height: 500px;
+        margin: auto;
+        margin-top: 100px;
+        background-color: #fdf9fd;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px #fdf9fd;
+      }
+      .header {
+        padding: 15px 0;
+        text-align: center;
+      }
+      .header p {
+        font-size: 27px;
+        font-weight: bold;
+        color: #02a061;
+      }
+      .btns {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .btn {
+        width: 100px;
+        height: 40px;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: #189ff9;
+        border: none;
+        border-radius: 5px;
+        color: #fdf9fd;
+      }
+      .counter-Number {
+        text-align: center;
+        margin-bottom: 35px;
+        font-size: 30px;
+        font-weight: 800;
+        color: #071607;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+          <p>Counter</p>
+        </div>
+        <div class="counter-Number">0</div>
+        <div class="Counter-Text"></div>
+        <div class="btns">
+          <button class="btn" id="btn1" type="submit">+</button>
+          <button class="btn" id="btn2" type="submit">-</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
