@@ -1,0 +1,86 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  width: 40rem;
+  background-color: white;
+}
+
+h2 {
+  font-size: 4rem;
+  color: white;
+  background-color: tomato;
+  text-align: center;
+  padding: 1rem;
+}
+
+form,
+form > * {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  border-bottom: 2px solid chocolate;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  font-size: 1.6rem;
+  padding: 7px;
+  width: 20rem;
+  text-align: right;
+}
+
+.btn {
+  margin: 5px 0;
+  background-color: purple;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: orangered;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+
+.result {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.result > * {
+  background-color: grey;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.total {
+  color: red;
+}
